@@ -2,7 +2,9 @@
 
 ### Purpose
 
-I am using this repo to run as a service within my dell R620 server for a SMTP service for free. Utilizing [SendGrid](https://app.sendgrid.com/) as the provider with a free tier account this allows me to send 100 messages a day - which is plenty for my small use cases.
+Built ontop of the open source project [textbelt](https://textbelt.com/)
+
+I am using this repo to run as a standalone server within my DellR620 server for a SMTP service for free. Utilizing [SendGrid](https://app.sendgrid.com/) as the provider with a free tier account this allows me to send 100 messages a day - which is plenty for my small use cases.
 
 ### Setup
 
