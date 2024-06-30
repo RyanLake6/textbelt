@@ -1,6 +1,6 @@
 ### My Usage:
 
-I am utilizing this [original repo](https://github.com/typpo/textbelt) for use as a SMTP service to send outgoing SMS for free. Read more [here](SMTP-setup)
+I am utilizing this [original repo](https://github.com/typpo/textbelt) for use as a SMTP service to send outgoing SMS for free. It also includes email sending post request as well. Read more [here](SMTP-setup)
 
 ### TextBelt Open Source
 

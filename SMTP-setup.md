@@ -20,6 +20,18 @@ git clone git@github.com:RyanLake6/textbelt.git
 npm install
 ```
 
+### Easy setup with docker
+
+3. Add credentials into a .env file for lib/config.js to use. An example env file can be found [here](.env.example)
+
+4. Run docker compose up to bring up the container stack of both redis and textbelt service
+
+```bash
+docker compose up -d
+```
+
+### Manual Setup (harder)
+
 3. Install (if not already) and run a redis-server on port 6379 (default) as this is necessary for this standalong server to run
 
 ```bash
@@ -42,4 +54,13 @@ Git Bash Example:
 
 ```bash
 curl -X POST http://localhost:9090/text -d number=<insert-phone-number> -d "message=test"
+```
+
+### Sending an email
+
+You can now send email's easily much like a SMS now as well
+
+Git Bash Example:
+```bash
+curl -X POST http://localhost:9090/email -d to=<phone-number> -d subject=<subject-line> -d "text=<subject>"
 ```
