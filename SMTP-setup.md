@@ -6,6 +6,8 @@ Built ontop of the open source project [textbelt](https://textbelt.com/)
 
 I am using this repo to run as a standalone server within my DellR620 server for a SMTP service for free. Utilizing [SendGrid](https://app.sendgrid.com/) as the provider with a free tier account this allows me to send 100 messages a day - which is plenty for my small use cases.
 
+**Update**: Sending emails to SMS gateways is prohibited under Twilio SendGrid Email Policy since telecommunications companies don't allow for commercial messages to be send this way. Twilio is enforcing this rule starting July 31st 2024 and therefore shouldn't be used as such - email still works great. Will need to migrate to a new SMTP service or utilize regular twilio paid account for SMS use
+
 ### Setup
 
 1. Clone this repo
